@@ -1,0 +1,56 @@
+
+    .site-contact {
+      display: flex;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.43;
+      letter-spacing: 0.02em;
+      margin-left: auto;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      }
+    
+    .site-contact__link {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-decoration: none;
+    color: $secondary-text-color;
+    align-items: center;
+    transition: 250ms $timing-function;
+    fill: currentColor;
+    
+    &:hover,
+    &:focus {
+      color: $accent-color;
+      transition: 250ms $timing-function;
+    }
+  }
+    
+    .site-contact__icon {
+      margin-right: 10px;
+     fill: currentColor;
+     
+     }
+  
+       
+    .site-contact__tel {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: 50px;
+    color: $secondary-text-color;
+    align-items: center;
+    text-decoration: none;
+    transition: 250ms $timing-function;
+    
+  
+    &:hover,
+    &:focus {
+    color: $accent-color;
+    transition: 250ms $timing-function;
+    }
+    
+  }
+   
