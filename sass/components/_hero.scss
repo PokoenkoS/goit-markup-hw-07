@@ -2,7 +2,7 @@
     text-align: center;
     }
     
-    .overlay {
+    .hero-overlay {
     height: 600px;
     max-width: 1600px;
     margin-left: auto;
@@ -12,14 +12,14 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
         ),
-        url(../images/hero.jpg);
+        url(/images/hero.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding-top: 200px;
     
     }
-     .title-hero {
+     .hero-title {
     color: $text-color-white;
     font-weight: 900;
     font-size: 44px;

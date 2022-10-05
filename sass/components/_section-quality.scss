@@ -1,0 +1,37 @@
+.quality {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    }
+    
+    .quality-list {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .quality-list__item {
+    width: 270px;
+    margin-right: 30px;
+    &:last-child {
+        margin-right: 0;
+        }
+    }    
+    
+    .quality-list__pictures {
+        width: 270px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #F5F4FA;
+         border-radius: 4px;
+         margin-bottom: 30px  
+    }

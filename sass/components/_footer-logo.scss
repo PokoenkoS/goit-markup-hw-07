@@ -1,0 +1,19 @@
+.footer-logo {
+    display: inline-block;
+    padding-bottom: 20px;
+    color: $text-color-white;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    transition: 250ms $timing-function;
+
+    &:hover,
+    &:focus{
+    color: $accent-color;
+    transition: 250ms $timing-function;
+    }
+    }
+    
+   
