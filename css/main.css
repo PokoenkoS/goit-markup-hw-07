@@ -696,20 +696,9 @@ body {
   align-items: baseline;
 }
 
-.footer-logo {
-  display: inline-block;
+.logo-footer {
   padding-bottom: 20px;
   color: #FFFFFF;
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-logo:hover, .footer-logo:focus {
-  color: #2196F3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-adress {
